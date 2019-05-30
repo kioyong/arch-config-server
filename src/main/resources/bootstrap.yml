@@ -4,13 +4,13 @@ server:
 spring:
   application:
     name: ly-config-server
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/xxx/xxx
-#          username: xxx
-#          password: xxx
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kioyong/ly-config
+          username: 517219382@qq.com
+          password: klljkljli@34
   jackson:
     serialization:
       indent_output: true
