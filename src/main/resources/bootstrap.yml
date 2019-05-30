@@ -1,0 +1,16 @@
+#config server' port suggest use  8888
+server:
+  port: 8888
+spring:
+  application:
+    name: ly-config-server
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/xxx/xxx
+#          username: xxx
+#          password: xxx
+  jackson:
+    serialization:
+      indent_output: true
