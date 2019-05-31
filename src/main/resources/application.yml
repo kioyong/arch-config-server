@@ -10,7 +10,7 @@ eureka:
     port: 8761
   instance:
     #defailt instanceId
-    instanceId:${spring.application.instance_id:${random.value}}}
+    instanceId: ${spring.application.instance_id:${random.value}}}
 #    hostname: ${eureka.hostname}
     statusPageUrl: http://${eureka.hostname}:${server.port}/actuator/info
     healthCheckUrl: http://${eureka.hostname}:${server.port}/actuator/health
